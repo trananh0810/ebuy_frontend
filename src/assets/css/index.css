@@ -1,0 +1,96 @@
+/* slide */
+#sec-slide {
+    padding-top: 65px;
+}
+.carousel-indicators li{
+    background-color: black;
+}
+/* end slide */
+
+/* features */
+#sec-features .container {
+    background-color: #ecf0f1;
+}
+#sec-features img {
+    width: 30%;
+}
+
+/* End features */
+
+/* social-perspective */
+#sec-social-perspective .container {
+    
+}
+
+/* end social-perspective */
+
+/* features detail */
+#sec-features-detail .container {}
+
+/* end features detail */
+
+/* statistical */
+#sec-statistical .container {
+    background-color: #ecf0f1;
+}
+
+#sec-statistical img {
+    width: 30%;
+}
+
+/* end statistical */
+
+
+
+
+
+
+/* responsive */
+@media (max-width: 1199.98px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {
+    #sec-social-perspective .container h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #sec-features h4 {
+        font-size: 0.9rem;
+    }
+
+    #sec-statistical h5 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 767.98px){
+    .div-like-fb {
+        position: fixed;
+        right: 10px;
+        top: 25%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {
+    #sec-slide {
+        padding-top: 60px;
+    }
+    #sec-features h4 {
+        font-size: 0.8rem;
+    }
+
+    #sec-statistical h5 {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 369px) {}
