@@ -1,0 +1,9 @@
+
+`javascript:UnusedVariable3";Remove the declaration of the unused 'sortedInfo' variable.(Ù¾Â‰
+[javascript:S18542"?Remove this useless assignment to local variable "filteredInfo"(õƒë¶
+^javascript:S18542"BRemove this useless assignment to local variable "setFilteredInfo"(õƒë¶
+\javascript:S18543"@Remove this useless assignment to local variable "setSortedInfo"(Ù¾Â‰
+Yjavascript:S18543"=Remove this useless assignment to local variable "sortedInfo"(Ù¾Â‰
+ejavascript:UnusedVariable2"@Remove the declaration of the unused 'setFilteredInfo' variable.(õƒë¶
+bjavascript:UnusedVariable2"=Remove the declaration of the unused 'filteredInfo' variable.(õƒë¶
+cjavascript:UnusedVariable3">Remove the declaration of the unused 'setSortedInfo' variable.(Ù¾Â‰

@@ -1,0 +1,10 @@
+.ant-pagination-item-active a {
+    color: white!important;
+}
+.ant-pagination-item-active {
+    background-color: #17a2b8;
+    border-color: #17a2b8!important;
+}
+.ant-pagination-item:hover {
+    border-color: #17a2b8!important;
+}

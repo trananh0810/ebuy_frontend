@@ -1,6 +1,8 @@
-$(function () {
+import Swiper from 'swiper';
+import $ from 'jquery';
+
+export function createSlideCard() {
     let swiper = new Swiper('.swiper-container', {
-        // slidesPerView: slidesPerViewProduct,
         breakpoints: {
             // when window width is >= 320px
             0: {
@@ -29,4 +31,5 @@ $(function () {
         },
         loop: true
     });
-})
+}
+

@@ -1,3 +1,6 @@
+/* eslint-disable */
+let $ = require('jquery');
+
 /*
 Template Name: Material Pro Admin
 Author: Themedesigner
@@ -38,7 +41,7 @@ $(function() {
     $(window).on("resize", set);
 
     // topbar stickey on scroll
-    $(".fix-header .topbar").stick_in_parent({});
+    // $(".fix-header .topbar").stick_in_parent({});
 
     // this is for close icon when navigation open in mobile view
     $(".nav-toggler").click(function() {
@@ -73,7 +76,7 @@ $(function() {
     //tooltip
     // ============================================================== 
     $(function() {
-            $('[data-toggle="tooltip"]').tooltip()
+            // $('[data-toggle="tooltip"]').tooltip()
         })
         // ============================================================== 
         // Sidebarmenu
@@ -84,12 +87,12 @@ $(function() {
     // ============================================================== 
     // Slimscrollbars
     // ============================================================== 
-    $('.scroll-sidebar').slimScroll({
-        position: 'left',
-        size: "5px",
-        height: '100%',
-        color: '#dcdcdc'
-    });
+    // $('.scroll-sidebar').slimScroll({
+    //     position: 'left',
+    //     size: "5px",
+    //     height: '100%',
+    //     color: '#dcdcdc'
+    // });
     // ============================================================== 
     // Resize all elements
     // ============================================================== 

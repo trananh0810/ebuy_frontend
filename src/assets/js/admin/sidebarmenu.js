@@ -1,3 +1,6 @@
+let $ = require('jquery');
+let jQuery = require('jquery');
+/* eslint-disable */
 /*
 Template Name: Material Pro Admin
 Author: Themedesigner
@@ -5,7 +8,9 @@ Email: niravjoshi87@gmail.com
 File: js
 */
 (function (global, factory) {
+  // eslint-disable-next-line no-undef
   if (typeof define === "function" && define.amd) {
+    // eslint-disable-next-line no-undef
     define(['jquery'], factory);
   } else if (typeof exports !== "undefined") {
     factory(require('jquery'));
